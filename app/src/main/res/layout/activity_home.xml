@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/r">
+        <android.support.v7.widget.CardView
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7.5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            app:cardCornerRadius="5dp"
+            android:layout_toLeftOf="@id/setting"
+            app:cardBackgroundColor="#fff">
+
+            <RelativeLayout
+                android:id="@+id/rlt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/appname"
+                    android:textColor="#3498DB"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name"
+                    />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_centerVertical="true"
+           android:id="@+id/setting"
+           android:layout_alignParentRight="true"
+           android:layout_height="wrap_content"
+           android:background="@drawable/shape_dialog">
+           <ImageView
+               android:layout_centerInParent="true"
+
+               android:layout_margin="5dp"
+               android:padding="5dp"
+               android:layout_width="35dp"
+               android:layout_height="35dp"
+               android:src="@drawable/setting"/>
+       </RelativeLayout>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/r"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerview"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        app:rvp_triggerOffset="0.1"
+        app:rvp_singlePageFling="true"
+        android:clipToPadding="false"
+        android:layout_above="@id/adView">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <com.google.android.gms.ads.AdView
+        android:visibility="visible"
+        android:layout_marginTop="1dp"
+        android:layout_alignParentBottom="true"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_id">
+    </com.google.android.gms.ads.AdView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:clickable="true"
+        android:src="@drawable/ic_recode"
+        android:visibility="visible"
+        app:backgroundTint="#3498DB"
+        app:layout_anchorGravity="right" />
+
+
+
+</RelativeLayout>

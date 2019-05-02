@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Screen"
+    android:background="@color/colorPrimary">
+
+
+
+   <ImageView
+       android:id="@+id/img"
+       android:padding="2dp"
+       android:layout_width="170dp"
+       android:layout_height="170dp"
+       android:src="@drawable/full"
+       android:layout_centerInParent="true"
+       />
+
+
+   <TextView
+       android:textSize="20sp"
+       android:id="@+id/txt"
+       android:layout_below="@id/img"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/colorgold"
+       android:layout_centerHorizontal="true"
+       android:text="Screen Video"/>
+
+   <TextView
+       android:id="@+id/txt1"
+       android:textSize="27sp"
+       android:layout_marginTop="5dp"
+       android:layout_below="@id/txt"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/colorgold"
+       android:layout_centerHorizontal="true"
+       android:text="Ghi lại màn hình"/>
+
+   <ImageView
+       android:id="@+id/click"
+       android:layout_marginTop="30dp"
+       android:layout_below="@id/txt1"
+       android:padding="5dp"
+       android:layout_centerHorizontal="true"
+       android:src="@drawable/next"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       />
+
+   <ProgressBar
+       android:id="@+id/load"
+       android:visibility="invisible"
+       android:padding="5dp"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="40dp"
+       android:layout_below="@id/click"
+       android:layout_width="30dp"
+       android:layout_height="30dp"
+       android:theme="@style/AppTheme1"/>
+
+   <TextView
+       android:textStyle="bold"
+       android:textSize="6sp"
+       android:layout_marginBottom="3dp"
+       android:layout_centerHorizontal="true"
+       android:textColor="@android:color/darker_gray"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:text="@string/dev"/>
+
+
+
+</RelativeLayout>

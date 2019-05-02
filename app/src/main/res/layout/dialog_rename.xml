@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:background="@drawable/shape_dialog"
+              android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đổi tên video"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:textStyle="bold"
+            android:id="@+id/edtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:drawableLeft="@drawable/edit"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:textColorHint="@color/red"
+            android:textColor="@color/red"
+            android:textSize="14sp"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:id="@+id/no"
+           android:textAllCaps="false"
+           android:textColor="#fff"
+           android:background="@drawable/custombuttom"
+           android:layout_margin="10dp"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:text="Hủy"/>
+       <Button
+           android:id="@+id/yes"
+           android:textAllCaps="false"
+           android:textColor="#fff"
+           android:background="@drawable/custombuttom"
+           android:layout_margin="10dp"
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:text="Đồng ý"/>
+   </LinearLayout>
+
+
+
+
+</LinearLayout>

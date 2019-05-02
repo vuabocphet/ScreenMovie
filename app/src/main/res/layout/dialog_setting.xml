@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_dialog"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <TextView
+           android:layout_margin="10dp"
+           android:textStyle="bold"
+           android:textSize="11sp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Thông số quay phim"
+           android:textColor="@android:color/darker_gray"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:background="@android:color/darker_gray">
+       </LinearLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textStyle="bold"
+               android:id="@+id/txtPixel"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="?android:attr/selectableItemBackground"
+               android:clickable="true"
+               android:drawableLeft="@drawable/ic_next"
+               android:drawablePadding="16dp"
+               android:gravity="center_vertical"
+               android:padding="16dp"
+               android:text="Độ phân giải"
+               android:textColor="@color/red"
+               android:textSize="14sp"/>
+           <TextView
+               android:textColor="@color/blue"
+               android:id="@+id/pixel"
+               android:textSize="9.2sp"
+               android:layout_marginRight="15dp"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="1920*1080"/>
+           <TextView
+               android:layout_marginTop="60dp"
+               android:layout_marginLeft="85dp"
+               android:textSize="8dp"
+               android:textColor="@android:color/darker_gray"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/pixel"/>
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textStyle="bold"
+               android:id="@+id/txtQuality"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="?android:attr/selectableItemBackground"
+               android:clickable="true"
+               android:drawableLeft="@drawable/ic_next"
+               android:drawablePadding="16dp"
+               android:gravity="center_vertical"
+               android:padding="16dp"
+               android:text="Chất lượng phim"
+               android:textColor="@color/red"
+               android:textSize="14sp"/>
+           <TextView
+               android:textColor="@color/blue"
+               android:id="@+id/quality"
+               android:textSize="9.2sp"
+               android:layout_marginRight="15dp"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="6Mbps"/>
+           <TextView
+               android:layout_marginTop="60dp"
+               android:layout_marginLeft="85dp"
+               android:textSize="8dp"
+               android:textColor="@android:color/darker_gray"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/quality"/>
+       </RelativeLayout>
+
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textStyle="bold"
+               android:id="@+id/txtRatio"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="?android:attr/selectableItemBackground"
+               android:clickable="true"
+               android:drawableLeft="@drawable/ic_next"
+               android:drawablePadding="16dp"
+               android:gravity="center_vertical"
+               android:padding="16dp"
+               android:text="Tỷ lệ khung hình"
+               android:textColor="@color/red"
+               android:textSize="14sp"/>
+           <TextView
+               android:textColor="@color/blue"
+               android:id="@+id/ratio"
+               android:textSize="9.2sp"
+               android:layout_marginRight="15dp"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="24fps"/>
+           <TextView
+               android:layout_marginTop="60dp"
+               android:layout_marginLeft="85dp"
+               android:textSize="8dp"
+               android:textColor="@android:color/darker_gray"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/ratio"/>
+       </RelativeLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textStyle="bold"
+               android:id="@+id/txtAudio"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="?android:attr/selectableItemBackground"
+               android:clickable="true"
+               android:drawableLeft="@drawable/ic_next"
+               android:drawablePadding="16dp"
+               android:gravity="center_vertical"
+               android:padding="16dp"
+               android:text="Âm thanh"
+               android:textColor="@color/red"
+               android:textSize="14sp"/>
+           <TextView
+               android:textColor="@color/blue"
+               android:id="@+id/audio"
+               android:textSize="9.2sp"
+               android:layout_marginRight="15dp"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Tắt tiếng"/>
+           <TextView
+               android:layout_marginTop="60dp"
+               android:layout_marginLeft="85dp"
+               android:textSize="8dp"
+               android:textColor="@android:color/darker_gray"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/audio"/>
+       </RelativeLayout>
+
+       <TextView
+           android:layout_margin="10dp"
+           android:textStyle="bold"
+           android:textSize="11sp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Tùy chọn quay phim"
+           android:textColor="@android:color/darker_gray"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:background="@android:color/darker_gray">
+       </LinearLayout>
+
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textStyle="bold"
+               android:id="@+id/txtClick"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="?android:attr/selectableItemBackground"
+               android:clickable="true"
+               android:drawableLeft="@drawable/ic_next"
+               android:drawablePadding="16dp"
+               android:gravity="center_vertical"
+               android:padding="16dp"
+               android:text="Hiển thị chạm"
+               android:textColor="@color/red"
+               android:textSize="14sp"/>
+           <Switch
+               android:textColor="@color/blue"
+               android:id="@+id/clcik"
+
+               android:layout_marginRight="15dp"
+               android:layout_alignParentRight="true"
+               android:layout_centerVertical="true"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               />
+           <TextView
+               android:layout_marginTop="60dp"
+               android:layout_marginLeft="85dp"
+               android:textSize="8dp"
+               android:textColor="@android:color/darker_gray"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/click"/>
+       </RelativeLayout>
+
+       <TextView
+           android:layout_margin="10dp"
+           android:textStyle="bold"
+           android:textSize="11sp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Khác"
+           android:textColor="@android:color/darker_gray"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@android:color/darker_gray">
+
+       </LinearLayout>
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:textStyle="bold"
+               android:id="@+id/txtExit"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="?android:attr/selectableItemBackground"
+               android:clickable="true"
+               android:drawableLeft="@drawable/ic_close"
+               android:drawablePadding="16dp"
+               android:gravity="center_vertical"
+               android:padding="16dp"
+               android:text="Thoát"
+               android:textColor="@color/red"
+               android:textSize="14sp"/>
+
+
+       </RelativeLayout>
+   </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

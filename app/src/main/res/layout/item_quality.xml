@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_dialog"
+    android:orientation="vertical"
+
+    >
+
+
+
+    <TextView
+        android:id="@+id/txt40Mbps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="40Mbps"
+        android:textSize="12sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray">
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txt32Mbps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="32Mbps"
+        android:textSize="12sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt24Mbps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="24Mbps"
+        android:textSize="12sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt16Mbps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="16Mbps"
+        android:textSize="12sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt8Mbps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="8Mbps"
+        android:textSize="12sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt6Mbps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="6Mbps"
+        android:textSize="12sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt4Mbps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="4Mbps"
+        android:textSize="12sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt1Mbps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="1Mbps"
+        android:textSize="12sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/close_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="Hủy"
+        android:textSize="14sp"/>
+
+
+
+
+
+</LinearLayout>

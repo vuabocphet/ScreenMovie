@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Quay phim màn hình</string>
+    <string name="dev">Design By NguyenTinh</string>
+
+
+    <!--Quảng cáo admon-->
+    <!--<string name="app_id">ca-app-pub-7593602752326571~9741880691</string>-->
+    <!--<string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--<string name="interstitial_id">ca-app-pub-3940256099942544/1033173712</string>-->
+
+    <string name="app_id">ca-app-pub-8757052529841381~6090124537</string>
+    <string name="banner_id">ca-app-pub-8757052529841381/5515409467</string>
+    <string name="interstitial_id">ca-app-pub-8757052529841381/2299408554</string>
+
+    <string name="Devloper_ID">Design By NguyenTinh</string>
+    <string name="privacy_policy_url">http://samplestickerapp.com/privacy_policy</string>
+    <string name="Email">vuabocphet98@gmail.com</string>
+    <string name="errnull">Không được để trống</string>
+    <string name="errstyle">Bắt buộc phải chứa .mp4</string>
+    <string name="pixel">Video có độ phân giải cao sẽ sắc nét hơn</string>
+    <string name="quality">Chấp lượng càng cao thì kích thước video càng lớn</string>
+    <string name="ratio">Tỷ lệ khung hình cao giảm độ nhòe chuyển động</string>
+    <string name="audio">Âm thanh hệ thống hoặc mic</string>
+    <string name="click">Hiển thị cử chỉ chạm bằng một điểm trắng</string>
+
+    <string name="fps_15">15fps</string>
+    <string name="fps_24">24fps</string>
+    <string name="fps_30">30fps</string>
+    <string name="off_mic">Tắt tiếng</string>
+    <string name="on_mic">Micro</string>
+</resources>

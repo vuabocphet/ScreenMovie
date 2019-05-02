@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/relayout">
+
+
+    <ImageView
+        android:background="@drawable/shape_img"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_show"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/video"/>
+
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/tv_play"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_show"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/play"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/tv_mic"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_play"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/mic"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/close"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_mic"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/close"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:background="@drawable/shape_dialog"
+              android:orientation="vertical">
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:drawableLeft="@drawable/play"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Chạy video"
+        android:textColor="@color/red"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/rename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:drawableLeft="@drawable/edit"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Đổi tên"
+        android:textColor="@color/red"
+        android:textSize="14sp"/>
+
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:drawableLeft="@drawable/share"
+            android:drawablePadding="16dp"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:text="Chia sẻ"
+            android:textColor="@color/red"
+            android:textSize="14sp"/>
+
+
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:drawableLeft="@drawable/url"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Đường dẫn"
+        android:textColor="@color/red"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_delete"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Xóa video"
+        android:textColor="@color/red"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:drawableLeft="@drawable/close"
+        android:drawablePadding="16dp"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Hủy"
+        android:textColor="@color/red"
+        android:textSize="14sp"/>
+
+
+</LinearLayout>

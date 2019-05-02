@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "116730502306",
+    "firebase_url": "https://screenmovie-a08c9.firebaseio.com",
+    "project_id": "screenmovie-a08c9",
+    "storage_bucket": "screenmovie-a08c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116730502306:android:7d7f8e2117adbdf4",
+        "android_client_info": {
+          "package_name": "com.vuabocphet.screenmovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116730502306-jucmrr488eoiaj1jpa5r02chrgndcal7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vuabocphet.screenmovie",
+            "certificate_hash": "fd9d75b97351aabdcef4e529e6244578d2b54eec"
+          }
+        },
+        {
+          "client_id": "116730502306-rful921f3gkd8o9mds36ep5iucdo0d16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm3JEQA6gPtU4bPZIXJluEQ-1h35sVIZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116730502306-rful921f3gkd8o9mds36ep5iucdo0d16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
